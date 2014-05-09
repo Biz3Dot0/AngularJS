@@ -3,8 +3,8 @@ function TodoCtrl($scope) {
 	
 					//list agenda events
 				    $scope.todos = [
-					{text:'Introduction to AngularJS', done:true},
-					{text:'App in 45 Mins', done:false},
+					{text:'Introduction to AngularJS Workshop', done:true},
+					{text:'Application in 45 Mins', done:false},
 					{text:'Google Analytics with Android', done:false}];
  
  
