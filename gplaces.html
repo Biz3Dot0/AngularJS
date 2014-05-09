@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.2.0-rc2" src="http://code.angularjs.org/1.2.0-rc.2/angular.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+    <script src="angularjs-google-places.js"></script>
+    <script src="scriptx.js"></script>
+  </head>
+
+  <body ng-app="myApp">
+    <div ng-controller="mainCtrl">
+      <img src="https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2.png"/>
+      <h3>Detailed Place Search Example</h3>
+      <p>{{details || "loading..."}}</p>
+      <h3>Nearby Place Search Example</h3>
+      <p>{{data || "loading..."}}</p>
+    </div>
+  </body>
+
+</html>

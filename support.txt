@@ -1,0 +1,16 @@
+To Get Started
+
+One. Download and include ng-map.js or ng-map.min.js
+
+<script src="dist/ng-map.min.js"></script>`
+Two. use map tag, and optionally, control, marker, and shape tags
+
+<map zoom="11" center="[40.74, -74.18]">
+  <marker position="[40.74, -74.18]" />
+  <shape name="circle" radius="400" center="[40.74,-74.18]" radius="4000" />
+  <control name="overviewMap" opened="true" />
+</map>`  
+
+
+More help here: http://stackoverflow.com/questions/20355968/google-maps-for-angularjs
+https://github.com/allenhwkim/angularjs-google-maps/tree/master/examples
